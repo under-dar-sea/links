@@ -8,13 +8,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="disclosure-bar">
+    <p class="disclosure">이 포스팅은 쿠팡 파트너스 및 네이버 쇼핑 커넥트 활동의 일환으로,<br> 판매 발생 시 일정액의 수수료를 제공받습니다.</p>
+  </div>
   <main class="page">
     <header class="hero">
-      <p class="brand">UNDER.DAR.SEA</p>
-      <p class="eyebrow">🥪 SANDWICH PICKS</p>
-      <h1>루꼴라 모르타델라<br>샌드위치 재료</h1>
-      <p class="intro">제가 직접 만들어 먹을 때 사용한<br>재료 6가지를 모아두었어요</p>
-      <img class="hero-image" src="images/sandwich-main.jpg" alt="루꼴라 모르타델라 샌드위치">
+      <p class="brand"><span class="brand-symbol" aria-hidden="true">୨୧</span>UNDER.DAR.SEA<span class="brand-symbol" aria-hidden="true">୨୧</span></p>
+     <h1 class="title">루꼴라 모르타델라<br>샌드위치 재료</h1>
+      <p class="intro">제가 직접 만들어 먹을 때 사용한<br>재료와 포장 아이템을 모아두었어요</p>
+      <img class="hero-image" src="images/sandwich_lap.jpeg" alt="루꼴라 모르타델라 샌드위치">
     </header>
 
     <section class="products" aria-labelledby="products-title">
@@ -43,7 +45,7 @@
           <span class="name">벨지오이오조<br>부라타</span>
           <span class="go">보러가기 ↗</span>
         </a>
-
+ 
         <a class="card" href="https://link.coupang.com/a/hEAZ3nVg0y" target="_blank" rel="sponsored noopener">
           <span class="emoji">🥜</span>
           <span class="name">네이처스<br>피스타치오 스프레드</span>
@@ -58,8 +60,21 @@
       </div>
     </section>
 
+    <section class="products" aria-labelledby="items-title">
+      <h2 id="items-title">함께 사용한 아이템</h2>
+      <!-- 아래 a 태그에 href="상품 링크"를 추가하면 연결됩니다. -->
+      <a class="card card--wide" target="_blank" rel="sponsored noopener">
+        <span class="emoji" aria-hidden="true">🥪</span>
+        <span class="item-info">
+          <span class="name">매직랩</span>
+          <span class="item-description">샌드위치를 감쌀 때 사용했어요</span>
+        </span>
+        <span class="go">보러가기 ↗</span>
+      </a>
+    </section>
+
     <footer>
-      <p class="disclosure">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+      <p class="disclosure">이 포스팅은 쿠팡 파트너스 및 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 일정액의 수수료를 제공받습니다.</p>
       <p class="signature">UNDER.DAR.SEA</p>
     </footer>
   </main>
